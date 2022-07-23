@@ -5,75 +5,14 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:46291 (IPv4)
-Extension host agent listening on 46291
+Server bound to 127.0.0.1:34607 (IPv4)
+Extension host agent listening on 34607
 
-[05:55:33] Extension host agent started.
-[05:55:34] [127.0.0.1][9907cf3b][ManagementConnection] New connection established.
-[05:55:34] [127.0.0.1][ce0bbc39][ExtensionHostConnection] New connection established.
-[05:55:34] [127.0.0.1][ce0bbc39][ExtensionHostConnection] <5640> Launched Extension Host Process.
-[05:56:15] [127.0.0.1][ce0bbc39][ExtensionHostConnection] <5640> Extension Host Process exited with code: 0, signal: null.
-Last EH closed, waiting before shutting down
-[05:56:15] Last EH closed, waiting before shutting down
-[05:56:17] [127.0.0.1][e9db943b][ManagementConnection] New connection established.
-[05:56:17] [127.0.0.1][84629ab5][ExtensionHostConnection] New connection established.
-[05:56:17] [127.0.0.1][84629ab5][ExtensionHostConnection] <5728> Launched Extension Host Process.
-[05:56:19] [127.0.0.1][9907cf3b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[05:56:19] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
-    at process.emit (node:events:390:28)
-New EH opened, aborting shutdown
-[06:01:15] New EH opened, aborting shutdown
-[07:50:57] [127.0.0.1][9907cf3b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[07:50:57] [127.0.0.1][84629ab5][ExtensionHostConnection] The client has reconnected.
-[07:51:01] [127.0.0.1][e9db943b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[07:51:01] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
-    at process.emit (node:events:390:28)
-[07:51:02] [127.0.0.1][e9db943b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[07:51:02] [127.0.0.1][e9db943b][ManagementConnection] The client has reconnected.
-[07:51:02] [127.0.0.1][84629ab5][ExtensionHostConnection] The client has reconnected.
-[07:55:57] [127.0.0.1][9907cf3b][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
-[07:56:15] [127.0.0.1][e9db943b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[07:56:15] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
-    at process.emit (node:events:390:28)
-[07:56:20] [127.0.0.1][e9db943b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[07:56:20] [127.0.0.1][e9db943b][ManagementConnection] The client has reconnected.
-[07:56:52] [127.0.0.1][84629ab5][ExtensionHostConnection] The client has reconnected.
-[08:01:47] [127.0.0.1][e9db943b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[08:01:47] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
-    at process.emit (node:events:390:28)
-[08:01:54] [127.0.0.1][e9db943b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[08:01:54] [127.0.0.1][e9db943b][ManagementConnection] The client has reconnected.
-[08:02:24] [127.0.0.1][84629ab5][ExtensionHostConnection] The client has reconnected.
-[08:04:05] [127.0.0.1][e9db943b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[08:04:05] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
-    at process.emit (node:events:390:28)
-[08:04:11] [127.0.0.1][e9db943b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[08:04:11] [127.0.0.1][e9db943b][ManagementConnection] The client has reconnected.
-[08:04:42] [127.0.0.1][84629ab5][ExtensionHostConnection] The client has reconnected.
-[08:09:39] [127.0.0.1][e9db943b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[08:09:39] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
-    at process.emit (node:events:390:28)
-[08:09:44] [127.0.0.1][e9db943b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[08:09:44] [127.0.0.1][e9db943b][ManagementConnection] The client has reconnected.
-[08:10:16] [127.0.0.1][84629ab5][ExtensionHostConnection] The client has reconnected.
-[08:15:12] [127.0.0.1][e9db943b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[08:15:12] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
-    at process.emit (node:events:390:28)
-[08:15:17] [127.0.0.1][e9db943b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[08:15:17] [127.0.0.1][e9db943b][ManagementConnection] The client has reconnected.
-[08:15:48] [127.0.0.1][84629ab5][ExtensionHostConnection] The client has reconnected.
-[09:06:27] [127.0.0.1][84629ab5][ExtensionHostConnection] The client has reconnected.
-[09:06:31] [127.0.0.1][e9db943b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[09:06:31] Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
-    at process.emit (node:events:390:28)
-[09:06:31] [127.0.0.1][e9db943b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[09:06:31] [127.0.0.1][e9db943b][ManagementConnection] The client has reconnected.
-[09:06:32] [127.0.0.1][84629ab5][ExtensionHostConnection] The client has reconnected.
+[11:39:31] Extension host agent started.
+[11:39:32] [127.0.0.1][e9db943b][ManagementConnection] Unknown reconnection token (never seen).
+[12:06:36] [127.0.0.1][298922cd][ManagementConnection] New connection established.
+[12:06:36] [127.0.0.1][a18873a4][ExtensionHostConnection] New connection established.
+[12:06:36] [127.0.0.1][a18873a4][ExtensionHostConnection] <15256> Launched Extension Host Process.
+[12:20:14] [127.0.0.1][faa5fa99][ManagementConnection] New connection established.
+[12:20:14] [127.0.0.1][56ebcc6e][ExtensionHostConnection] New connection established.
+[12:20:14] [127.0.0.1][56ebcc6e][ExtensionHostConnection] <17613> Launched Extension Host Process.

@@ -517,3 +517,148 @@ kubectl apply -f api_prod_deployment.yml
 kubectl get svc
 kubectl get pods
 kubectl logs api-server-deployment-prod-5fdd5c9d4d-47jgq
+sudo docker images
+sudo docker ps
+sudo docker run -d f2ad9f23df82 
+sudo docker ps
+sudo docker ps -a
+sudo docker ps 
+cd test
+cd ..
+sudo docker run -d 509d3a657a8e 
+sudo docker ps 
+sudo docker exec -it 0b8 /bin/bash
+clear
+kubectl apply -f api_prod_deployment.yml
+kubectl delete -f api_prod_deployment.yml
+kubectl apply -f api_prod_deployment.yml
+kubectl get svc
+sudo docker images
+clear
+kubectl delete -f api_prod_deployment.yml
+kubectl apply -f api_prod_deployment.yml
+kubectl get svc
+kubectl apply -f api_prod_deployment.yml
+kubectl delete -f api_prod_deployment.yml
+kubectl apply -f api_prod_deployment.yml
+kubectl get svc
+kubectl delete -f api_prod_deployment.yml
+kubectl apply -f api_dev_deployment.yml
+kubectl get svx
+kubectl get svc
+clear
+ls
+cd k8s_Kustomize
+cd K8s_Kustomize/
+ls
+cd base
+cd Base
+ls
+cd Api-Server
+ls
+cd ..
+ls
+cd base
+cd Base
+ls
+cd ..
+clear
+sudo tree K8s_Kustomize
+git --version
+git remote add origin https://github.com/Ajjai99/Kubernetes-fitness-app.git
+git init
+git remote add origin https://github.com/Ajjai99/Kubernetes-fitness-app.git
+git branch
+git remote -v
+git status
+git add .
+git status
+git add fitness-app-kube
+git status
+ls -a
+git commit -m "changes made"
+git push -u origin main
+git remote -v 
+git push -u  https://github.com/Ajjai99/Kubernetes-fitness-app.git main
+git push origin main
+clear
+git status
+git add .
+git status
+git add .
+git status
+git branch
+git status
+git branch new-master
+git branch
+git branch checkout new-master
+git branch
+git branch switch new-master
+git branch
+git checkout new-master
+git branch
+git status
+git add . 
+git status
+ls
+cd k8s_kustomize
+cd K8s_kustomize
+cd K8s_Kustomize
+ls
+git init
+git status
+git add .
+git status
+git commit -m "kuztomize changes"
+git push origin main
+cd ..
+git checkout master
+git branch
+git remote add origin git@github.com:Ajjai99/Kubernetes-fitness-app.git
+git remote -v
+git push -u origin main
+clear
+git remote -v
+git remote remove origin
+git remote -v
+git remote add origin git@github.com:Ajjai99/Kubernetes-fitness-app.git
+git remote -v
+git push -u origin main
+git push origin main
+kubectl get pods
+kubectl get svc
+kubectl get pods
+kubectl get depolyments
+clear
+kubectl config set-context --current --namespace=my-project
+kubectl get depolyments
+kubectl get configmaps
+kubectl get rc
+kubectl get rc,sv
+kubectl get rc,svc
+kubectl delete deployments --all
+kubectl get configmaps
+kubectl get svc
+kubectl delete services --all
+kubectl delete configmaps --all
+kubectl delete pods --all
+kubectl get pods
+kubectl get deployments
+kubectl get services
+kubectl get configmaps
+kubectl get pods
+kubectl apply -f api_prod_deployment.yml 
+clear
+kubectl apply -f api_prod_deployment.yml 
+kubectl get svc
+kubectl delete -f api_prod_deploment.yml 
+kubectl delete -f api_prod_deployment.yml 
+kubectl apply -f api_prod_deployment.yml 
+kubectl get svc
+kubectl apply -f api_prod_deployment.yml 
+kubectl get svc
+kubectl apply -f api_prod_deployment.yml 
+kubectl get svc
+kubectl delete -f api_prod_deployment.yml 
+kubectl apply -f api_prod_deployment.yml 
+kubectl get svc
