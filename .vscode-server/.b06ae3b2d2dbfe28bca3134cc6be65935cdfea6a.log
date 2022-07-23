@@ -1,0 +1,15 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:39129 (IPv4)
+Extension host agent listening on 39129
+
+[16:10:55] Extension host agent started.
+[16:10:56] [127.0.0.1][9c201bd6][ManagementConnection] Unknown reconnection token (never seen).
+[16:11:05] [127.0.0.1][e05f912d][ManagementConnection] New connection established.
+[16:11:06] [127.0.0.1][6b148e36][ExtensionHostConnection] New connection established.
+[16:11:06] [127.0.0.1][6b148e36][ExtensionHostConnection] <6479> Launched Extension Host Process.

@@ -1,0 +1,89 @@
+[2022-07-20 11:26:16.259] [remoteagent] [info] Extension host agent started.
+[2022-07-20 11:26:16.879] [remoteagent] [info] [127.0.0.1][0174bbb7][ManagementConnection] New connection established.
+[2022-07-20 11:26:17.367] [remoteagent] [info] [127.0.0.1][18c63ddd][ExtensionHostConnection] New connection established.
+[2022-07-20 11:26:17.372] [remoteagent] [info] [127.0.0.1][18c63ddd][ExtensionHostConnection] <10218> Launched Extension Host Process.
+[2022-07-20 11:26:40.908] [remoteagent] [info] [127.0.0.1][de27531b][ManagementConnection] New connection established.
+[2022-07-20 11:26:41.411] [remoteagent] [info] [127.0.0.1][4c86dc3a][ExtensionHostConnection] New connection established.
+[2022-07-20 11:26:41.419] [remoteagent] [info] [127.0.0.1][4c86dc3a][ExtensionHostConnection] <10314> Launched Extension Host Process.
+[2022-07-20 11:27:22.643] [remoteagent] [info] [127.0.0.1][746b4672][ManagementConnection] New connection established.
+[2022-07-20 11:27:23.179] [remoteagent] [info] [127.0.0.1][afa7d85d][ExtensionHostConnection] New connection established.
+[2022-07-20 11:27:23.188] [remoteagent] [info] [127.0.0.1][afa7d85d][ExtensionHostConnection] <10453> Launched Extension Host Process.
+[2022-07-20 11:27:53.739] [remoteagent] [info] [127.0.0.1][afa7d85d][ExtensionHostConnection] <10453> Extension Host Process exited with code: 0, signal: null.
+[2022-07-20 11:27:54.861] [remoteagent] [info] [127.0.0.1][18c63ddd][ExtensionHostConnection] <10218> Extension Host Process exited with code: 0, signal: null.
+[2022-07-20 11:27:57.866] [remoteagent] [info] [127.0.0.1][4c86dc3a][ExtensionHostConnection] <10314> Extension Host Process exited with code: 0, signal: null.
+[2022-07-20 11:27:57.866] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-20 11:28:37.729] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-07-20 11:28:37.729] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-20 11:28:38.780] [remoteagent] [info] [127.0.0.1][6ec9073c][ManagementConnection] New connection established.
+[2022-07-20 11:28:39.467] [remoteagent] [info] [127.0.0.1][aa297e95][ExtensionHostConnection] New connection established.
+[2022-07-20 11:28:39.476] [remoteagent] [info] [127.0.0.1][aa297e95][ExtensionHostConnection] <10666> Launched Extension Host Process.
+[2022-07-20 11:28:40.010] [remoteagent] [info] [127.0.0.1][0174bbb7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-20 11:28:40.013] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-20 11:28:40.014] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-20 11:28:40.014] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-20 11:28:40.014] [remoteagent] [info] [127.0.0.1][746b4672][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-20 11:28:40.014] [remoteagent] [info] [127.0.0.1][de27531b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-20 11:29:42.881] [remoteagent] [info] [127.0.0.1][aa297e95][ExtensionHostConnection] <10666> Extension Host Process exited with code: 0, signal: null.
+[2022-07-20 11:29:42.881] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-20 11:29:42.881] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-20 11:29:48.679] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-07-20 11:29:48.679] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-07-20 11:29:49.913] [remoteagent] [info] [127.0.0.1][0174bbb7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-20 11:29:49.914] [remoteagent] [info] [127.0.0.1][de27531b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-20 11:29:49.914] [remoteagent] [info] [127.0.0.1][746b4672][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-20 11:29:49.914] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] New connection established.
+[2022-07-20 11:29:50.536] [remoteagent] [info] [127.0.0.1][9dd593ee][ExtensionHostConnection] New connection established.
+[2022-07-20 11:29:50.542] [remoteagent] [info] [127.0.0.1][9dd593ee][ExtensionHostConnection] <10967> Launched Extension Host Process.
+[2022-07-20 11:29:51.026] [remoteagent] [info] [127.0.0.1][6ec9073c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-20 11:29:51.027] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-20 11:34:48.679] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-07-20 11:34:50.062] [remoteagent] [info] [127.0.0.1][0174bbb7][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-07-20 11:34:50.064] [remoteagent] [info] [127.0.0.1][de27531b][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-07-20 11:34:50.064] [remoteagent] [info] [127.0.0.1][746b4672][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-07-20 11:35:50.675] [remoteagent] [info] [127.0.0.1][6ec9073c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-20 11:35:50.675] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has reconnected.
+[2022-07-20 11:35:51.137] [remoteagent] [info] [127.0.0.1][9dd593ee][ExtensionHostConnection] The client has reconnected.
+[2022-07-20 11:37:22.359] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-20 11:37:22.359] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-20 11:37:27.232] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-20 11:37:27.232] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has reconnected.
+[2022-07-20 11:37:56.716] [remoteagent] [info] [127.0.0.1][9dd593ee][ExtensionHostConnection] The client has reconnected.
+[2022-07-20 11:40:50.723] [remoteagent] [info] [127.0.0.1][6ec9073c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-07-20 13:40:41.320] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-20 13:40:41.320] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-20 14:18:21.651] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-20 14:18:21.651] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has reconnected.
+[2022-07-20 14:18:22.206] [remoteagent] [info] [127.0.0.1][9dd593ee][ExtensionHostConnection] The client has reconnected.
+[2022-07-20 15:26:18.438] [remoteagent] [info] [127.0.0.1][9dd593ee][ExtensionHostConnection] The client has reconnected.
+[2022-07-20 15:26:23.259] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-20 15:26:23.260] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-20 15:29:06.034] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-20 15:29:06.034] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has reconnected.
+[2022-07-20 15:29:06.514] [remoteagent] [info] [127.0.0.1][9dd593ee][ExtensionHostConnection] The client has reconnected.
+[2022-07-20 15:33:53.613] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-20 15:33:53.613] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[2022-07-20 15:33:58.611] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-07-20 15:33:58.612] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has reconnected.
+[2022-07-20 15:34:29.580] [remoteagent] [info] [127.0.0.1][9dd593ee][ExtensionHostConnection] The client has reconnected.
+[2022-07-20 16:28:02.995] [remoteagent] [info] [127.0.0.1][9dd593ee][ExtensionHostConnection] <10967> Extension Host Process exited with code: 0, signal: null.
+[2022-07-20 16:28:02.996] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-07-20 16:28:03.271] [remoteagent] [info] [127.0.0.1][82a1da1f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-07-20 16:28:03.272] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)

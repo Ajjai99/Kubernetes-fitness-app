@@ -1,0 +1,5 @@
+[2022-07-21 16:10:55.287] [remoteagent] [info] Extension host agent started.
+[2022-07-21 16:10:56.052] [remoteagent] [error] [127.0.0.1][9c201bd6][ManagementConnection] Unknown reconnection token (never seen).
+[2022-07-21 16:11:05.684] [remoteagent] [info] [127.0.0.1][e05f912d][ManagementConnection] New connection established.
+[2022-07-21 16:11:06.168] [remoteagent] [info] [127.0.0.1][6b148e36][ExtensionHostConnection] New connection established.
+[2022-07-21 16:11:06.176] [remoteagent] [info] [127.0.0.1][6b148e36][ExtensionHostConnection] <6479> Launched Extension Host Process.

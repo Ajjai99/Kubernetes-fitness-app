@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: my-project
+  name: mysql-deployment
+  labels:
+    app: mysql-db
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mysql-db
+  template:
+    metadata:
+      labels:
+        app: mysql-db
+    spec:
+      containers:
+      - name: mysql-db
+        image: ajjai007/mysqlimage
+        ports:
+        - containerPort: 3306

@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: my-project
+  name: api-server-deployment
+  labels:
+    app: api-server
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: api-server
+  template:
+    metadata:
+      labels:
+        app: api-server
+    spec:
+      containers:
+      - name: api-server
+        image: ajjai007/api-server
+        ports:
+        - containerPort: 5000
+        envFrom:
+          - configMapRef:
+              name: api-config
